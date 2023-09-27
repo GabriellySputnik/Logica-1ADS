@@ -56,7 +56,7 @@
     
 
  .titulo_pagina{
-    color: blue; 
+    color: rgb(150, 150, 206); 
     font-size: 25px;
   }
 
@@ -85,7 +85,7 @@
     height: 80px;
   }
   .cabeçalho{
-    background-color: black;
+    background-color: rgb(8, 207, 148);
     display: flex;
     font-size: 2em;
     color: aliceblue;
@@ -106,4 +106,6 @@
     color: aquamarine;
     box-shadow: 0px 8px 16px 0px rgb(123, 147, 212);
   }
-  
+  @media  and (min-width:1350px) {
+    
+  }
