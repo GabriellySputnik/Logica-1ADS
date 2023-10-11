@@ -10,11 +10,6 @@
     align-items: center;  
     margin: 1cqi;          /*alinha os objeto ao centro vertical doespaço */
 }
-.logotipo{
-    width: 60px;
-    padding: 5px;
-    margin: 05px;
-}
 .botao_login {
     background-color: #effcf1;
     border-radius: 10px;
@@ -59,7 +54,7 @@
     }
     .botao_login {
         
-        font-size: 60px;
+        font-size: 40px;
         margin: 10px 60px;
                
         
