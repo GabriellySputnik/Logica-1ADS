@@ -1,14 +1,16 @@
 .cabeçalho{
-    background-color: rgb(255, 255, 255); /*coloca cor de fundo */
     display: flex;
-    font-size: 2em;           /*coloca tamanho da fonte */
-    color: rgb(0, 0, 0);         /*coloca cor da fonte*/
     width: 100%;                /*coloca largura da janela */
-    height: 80px;                /*coloca caltura do  espaço do cabeçalho */
+    height: 100px;                /*coloca caltura do  espaço do cabeçalho */
     text-align: center;         /*alinha o texto do titulo */         
     justify-content: space-between; /*coloca espsço entre os objetos do cabeçalho */
     align-items: center;  
     margin: 1cqi;          /*alinha os objeto ao centro vertical doespaço */
+    border: none;
+    border-radius: 10px;
+     background-color: rgba(51, 51, 51, 0.5); /* Cor de fundo com 50% de opacidade */
+     color: #fff; /* Cor do texto no cabeçalho */
+     padding: 20px 0;
 }
 .logotipo{
     width: 50px;
@@ -16,19 +18,20 @@
     margin: 05px;
 }
 .botao_login {
-    background-color: #effcf1;
+    background-color: #000000;
     border-radius: 10px;
     border: none;
-    color: #082735;
+    color: #ffffff;
     padding: 10px 20px;
     text-align: right;
     text-decoration: none;
     display: inline-block;
-    font-size: 20px;
+    font-size: 10px;
     margin: 10px 29px;
     transition-duration: 0.4s;
     cursor: pointer;
-    background-image: linear-gradient(to bottom, #a1a2f5,  #a1a2f5);    
+    background-image: linear-gradient(to bottom, #e6ecac); 
+    font-family: 'Times New Roman';   
 }
 
 /* formata o botão verde para mudar a cor do texoo e colocarr sombra quando o mouse passar encima*/
@@ -37,36 +40,16 @@
     color: black;
     box-shadow: 0px 8px 16px 0px rgba(22, 218, 71, 0.89);
 }
-@media screen and (min-width:1024px){
-
-    .titulo_smart{
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 30px;
-    }
-}
-@media screen and (min-width:1350px){
-    
-    .cabeçalho{
-    font-size: 2em;          
-    height: 160px;       
-    align-items: center;  
-    margin: 1cqi;         
-}
-
-    .titulo_smart{
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 30px;
+     .titulo_smart{
+        font-family: 'Trebuchet MS';
+        font-size: 50px;
     }
     .botao_login {
         
-        font-size: 60px;
+        font-size: 50px;
         margin: 10px 60px;
-               
-        
+   
     }
-    .logotipo{
-        width: 90px;
-        padding: 5px;
-        margin: 05px;
-    }
-}
+ 
+  
+   

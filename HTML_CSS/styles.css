@@ -4,7 +4,9 @@
 @import url(Styles/principal.css);
 
 
-body{
-    background-color:rgb(255, 255, 255);
-    
-}
+body {
+    background-image: url('Imagens/Fundosite.jpg'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* Ajusta a imagem para cobrir toda a área */
+    background-repeat: no-repeat; /* Evita repetir a imagem */
+  }
+  
