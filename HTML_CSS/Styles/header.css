@@ -18,7 +18,7 @@
     margin: 05px;
 }
 .botao_login {
-    background-color: #000000;
+    background-color: #26023b;
     border-radius: 10px;
     border: none;
     color: #ffffff;
@@ -37,7 +37,7 @@
 /* formata o botão verde para mudar a cor do texoo e colocarr sombra quando o mouse passar encima*/
 .botao_login:hover {
     background-color: rgb(4, 88, 63);
-    color: black;
+    color: rgb(255, 253, 253);
     box-shadow: 0px 8px 16px 0px rgba(22, 218, 71, 0.89);
 }
      .titulo_smart{

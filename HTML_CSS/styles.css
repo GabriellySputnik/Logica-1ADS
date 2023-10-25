@@ -5,7 +5,7 @@
 
 
 body {
-    background-image: url('Imagens/Fundosite.jpg'); /* Substitua pelo caminho da sua imagem */
+    background-image: url('Imagens/iphone_608.png'); /* Substitua pelo caminho da sua imagem */
     background-size: cover; /* Ajusta a imagem para cobrir toda a área */
     background-repeat: no-repeat; /* Evita repetir a imagem */
   }
