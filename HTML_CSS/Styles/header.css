@@ -9,7 +9,7 @@
     border: none;
     border-radius: 10px;
     background-color: rgba(51, 51, 51, 0.5); /* Cor de fundo com 50% de opacidade */
-    color: red; /* Cor do texto no cabeçalho */
+    color: rgba(211, 163, 233, 0.925); /* Cor do texto no cabeçalho */
     padding: 20px 0;
 }
 .logotipo{
