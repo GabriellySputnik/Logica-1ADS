@@ -1,16 +1,16 @@
 .cabeçalho{
     display: flex;
     width: 100%;                /*coloca largura da janela */
-    height: 100px;                /*coloca caltura do  espaço do cabeçalho */
+    height: 120px;                /*coloca caltura do  espaço do cabeçalho */
     text-align: center;         /*alinha o texto do titulo */         
     justify-content: space-between; /*coloca espsço entre os objetos do cabeçalho */
     align-items: center;  
     margin: 1cqi;          /*alinha os objeto ao centro vertical doespaço */
     border: none;
     border-radius: 10px;
-     background-color: rgba(51, 51, 51, 0.5); /* Cor de fundo com 50% de opacidade */
-     color: #fff; /* Cor do texto no cabeçalho */
-     padding: 20px 0;
+    background-color: rgba(51, 51, 51, 0.5); /* Cor de fundo com 50% de opacidade */
+    color: red; /* Cor do texto no cabeçalho */
+    padding: 20px 0;
 }
 .logotipo{
     width: 50px;
