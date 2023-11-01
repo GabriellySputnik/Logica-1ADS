@@ -7,6 +7,12 @@ footer {
     color: #fff; /* Cor do texto no cabeçalho */
     height: 220px; /* Aumente este valor para aumentar a altura do rodapé */
   }
-.text
+.texto_informativo {
+   color: #fff;
+  }
+  .text_abaixo {
+font-size: larger;
+
+  }
 
 
